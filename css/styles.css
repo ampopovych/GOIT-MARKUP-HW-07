@@ -40,7 +40,7 @@ img{
  list-style: none;
 }
 .container {
- width: 100%;
+ /*-width: 100%;-*/
  padding-left: 15px;
  padding-right: 15px;
  margin: 0 auto;
@@ -824,6 +824,6 @@ color: var(--color-slate);
     width: 738px;
   }
   .about-item {
-    width: calc(100% - 30px)/2;
+    width: calc(100% - 24px) / 2;
   }
 }
