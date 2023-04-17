@@ -824,6 +824,6 @@ color: var(--color-slate);
     width: 738px;
   }
   .about-item {
-    width: calc(100% - 24px) / 2;
+  width: calc((100% - 24px) / 2);
   }
 }
