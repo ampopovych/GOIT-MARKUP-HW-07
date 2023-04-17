@@ -849,6 +849,7 @@ color: var(--color-slate);
   }
   .about-list {
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
   } 
 }
