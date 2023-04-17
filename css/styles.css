@@ -834,3 +834,11 @@ color: var(--color-slate);
  
   }
 }
+@media screen and (min-width: 1158px) {
+  .container{
+    width: 1128px;
+ 
+  }
+ 
+  }
+}
