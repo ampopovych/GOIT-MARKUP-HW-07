@@ -40,7 +40,7 @@ img{
  list-style: none;
 }
 .container {
- width: 1158px;
+ width: 100%;
  padding-left: 15px;
  padding-right: 15px;
  margin: 0 auto;
@@ -330,14 +330,6 @@ color: #8E8F99;
   background-repeat: no-repeat;
   background-position: center;
   }
-  /*-.modal-check:focus + .modal-lable-prpol::before{
-    background-color: #404BBF;
-    border-color: transparent; 
-    background-image: url(../images/Vector.svg); 
-    background-repeat: no-repeat;
-    background-position: center;
-    }-*/
-
 .modal-lable-prpol{
 font-weight: 400;
 font-size: 12px;
@@ -379,8 +371,8 @@ margin-bottom: 24px;
 
   /**--------Section2 About-------*/
   .about {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .about-container{
    }
@@ -393,9 +385,11 @@ margin-bottom: 24px;
   }
   .about-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
   }
   .about-item {
+    width: 100%;
   }
   .about-container-item{
     height: 112px;
@@ -416,13 +410,14 @@ margin-bottom: 24px;
     letter-spacing: 0.02em;
     color: var(--color-grey);
     margin-bottom: 8px;
+    text-align: center;
   }
   .about-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    max-width: 264px;
+    width: 100%;
   }
   /**--------Section3 What-------*/
   .what {
@@ -820,4 +815,17 @@ color: var(--color-slate);
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+}
+@media screen and (min-width: 428px) {
+  .container{
+    width: 398px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container{
+    width: 738px;
+  }
+  .about-item {
+    width: calc(100% - 30px)/2;
+  }
 }
