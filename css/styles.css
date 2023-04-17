@@ -821,9 +821,16 @@ color: var(--color-slate);
 }
 @media screen and (min-width: 768px) {
   .container{
-    width: 738px;
+    width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .section{
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .about-item {
-  width: calc((100% - 24px) / 2);
+ width: calc((100% - 24px) / 2);
+ 
   }
 }
