@@ -612,9 +612,6 @@ display: flex;
 
 .footer-subscr {
   height: 80px;
-  display: flex;
-  justify-content: center;
-align-items: center;
 }
 
 .subscribe-form {
@@ -623,6 +620,7 @@ flex-wrap: wrap;
 gap: 16px;
 justify-content: center;
 align-items: center;
+
 }
 .footer-email-input {
 width: 398px;
