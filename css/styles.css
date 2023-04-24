@@ -161,7 +161,18 @@ position: relative;
     max-width: 1440px;
     margin: 0 auto;
 }
- 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-one {
+    background-color: var(--color-grey);
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/fon-mob-2x.jpg);
+  }
+}
   .section-one-title {
     font-size: 36px;
     line-height: 1.11;
@@ -823,6 +834,17 @@ color: var(--color-slate);
       ),
       url(../images/fon-tab.jpg);
  } 
+ @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-one {
+    background-color: var(--color-grey);
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/fon-tab-2x.jpg);
+  }
 /**--------Section2 About-------*/
   .about-item {
  width: calc((100% - 24px) / 2);
@@ -875,12 +897,34 @@ color: var(--color-slate);
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-      ), url(../images/people-office\ 1.jpg);
+      ), url(../images/fon-desktop.jpg);
   }  
-  .section-one-title {
-    font-size: 56px;
-    line-height: 1.07;
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-one {
+    background-color: var(--color-grey);
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/fon-desktop-2x.jpg);
   }
+}
+
+.section-one-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  max-width: 496px;
+  margin-top: 0;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
   /**--------Section2 About-------*/
   .about-item {
     width: calc((100% - 72px) / 4);
