@@ -854,6 +854,13 @@ color: var(--color-slate);
     flex-wrap: wrap;
     gap: 24px;
   }
+/***---Section our team---***/
+/*-.ourteam-list {
+  display: flex;
+  flex-wrap: wrap;
+ row-gap: 24px;
+ column-gap: 64px;
+}-*/
 /*------Section Customers---*/
 .customers-item {
   height: 88px;
@@ -1001,7 +1008,7 @@ color: var(--color-slate);
 .ourteam-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+ gap: 24px;
 }
 .ourteam-item{
   width: calc((100% - 72px) / 4);
