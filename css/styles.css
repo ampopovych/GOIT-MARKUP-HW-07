@@ -813,7 +813,14 @@ color: var(--color-slate);
   .container {
     width: 398px;
   }
-
+  /*-.ourteam-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
+-*/
  }
 @media screen and (min-width: 768px) {
   .container {
@@ -834,6 +841,14 @@ color: var(--color-slate);
       ),
       url(../images/fon-tab.jpg);
  } 
+ .ourteam-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
  @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -891,6 +906,8 @@ color: var(--color-slate);
 }
 .subscribe-form{
   justify-content: start;
+}
+}
 }
 @media screen and (min-width: 1158px) {
   .container {
