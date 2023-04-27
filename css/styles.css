@@ -152,9 +152,12 @@ color: #2E2F42;
   border-radius: black;
 }
 .mob-contact{
-justify-content: center;
-align-items: center;
-margin-bottom: 48px;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 48px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
 }
 .mob-menu-tel {
   font-weight: 700;
