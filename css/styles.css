@@ -903,7 +903,7 @@ color: var(--color-slate);
    .header-addr-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    justify-content: flex-end;
   }
    .contact-link{
     font-style: normal;
@@ -911,8 +911,8 @@ color: var(--color-slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /*-padding-top: 24px;
+    padding-bottom: 24px;-*/
     display: block;
     transition: color var(--transat-act);
    }
