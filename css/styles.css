@@ -899,6 +899,7 @@ color: var(--color-slate);
     
    .header-address{
      margin-left: auto;
+     align-items: center;
    }
    .header-addr-list{
     display: flex;
