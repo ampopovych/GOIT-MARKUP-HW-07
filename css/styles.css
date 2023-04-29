@@ -1197,10 +1197,12 @@ color: var(--color-slate);
   padding-bottom: 100px;
 }
 .container-footer{
-  display: block;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .footer-logo-div{
-  margin-right: 120px;
+  
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -1210,6 +1212,7 @@ color: var(--color-slate);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  justify-content: flex-start;
   }
 
 span.ingred {
@@ -1239,6 +1242,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
+justify-content: flex-start;
 }
 .footer-soc {
 
@@ -1272,13 +1276,14 @@ margin-bottom: 16px;
 }
 .footer-subscr {
   height: 80px;
-  
+  justify-content: flex-start;
 }
 .footer-soc-title {
 }
 .subscribe-form {
-  display: flex;
+flex-wrap: nowrap;
 justify-content: space-between;
+
 }
 .footer-email-input {
 width: 264px;
