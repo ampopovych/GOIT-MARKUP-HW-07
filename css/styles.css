@@ -865,8 +865,7 @@ color: var(--color-slate);
     display: flex;
     gap: 40px ;
    }
-   
-   
+      
    .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -924,7 +923,7 @@ color: var(--color-slate);
   }
   
   /*----Section 1 -------*/
-  .section-one {
+.section-one {
   background-color: var(--color-grey);
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -932,7 +931,7 @@ color: var(--color-slate);
       ),
       url(../images/fon-tab.jpg);
  } 
- .ourteam-list {
+.ourteam-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -944,8 +943,7 @@ color: var(--color-slate);
   height: 88px;
   width: calc((100% - 48px)/3);
   }
-
-  .customers-list {
+.customers-list {
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
@@ -973,34 +971,9 @@ color: var(--color-slate);
     gap: 24px;
   }
 /***---Section our team---***/
-/*-.ourteam-list {
-  display: flex;
-  flex-wrap: wrap;
- row-gap: 24px;
- column-gap: 64px;
-}-*/
+
 /*------Section Customers---*/
 
-  .footer-logo-div{
-    margin-right: 120px;
-  }
-  .footer-logo {
-     justify-content: start;
-  }
-  
-.footer-soc-title{
-  justify-content: start;
-}
-.footer-email-input {
-  width: 264px;
-}
-.footer-subscr{
-  justify-content: start;
-  display: block;
-}
-.subscribe-form{
-  justify-content: start;
-}
 }
 }
 @media screen and (min-width: 1158px) {
@@ -1224,8 +1197,7 @@ color: var(--color-slate);
   padding-bottom: 100px;
 }
 .container-footer{
-  display: flex;
-  /*-gap: 120px;-*/
+  display: block;
 }
 .footer-logo-div{
   margin-right: 120px;
