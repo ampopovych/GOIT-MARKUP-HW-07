@@ -931,6 +931,9 @@ color: var(--color-slate);
       ),
       url(../images/fon-tab.jpg);
  } 
+ .tablet{
+  width: 580px;
+ }
 .ourteam-list {
   display: flex;
   flex-wrap: wrap;
@@ -950,6 +953,20 @@ color: var(--color-slate);
     align-items: center;
   justify-content: center;
   }
+.footer-logo {
+  justify-content: start;
+}
+.footer-soc-title {
+  justify-content: start;
+}
+.footer-email-input{
+  width: 264px;
+  height: 40px;
+}
+.footer-subscr{
+  flex-direction: column;
+  align-items: flex-start;
+}
  @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
