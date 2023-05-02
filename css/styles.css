@@ -203,8 +203,8 @@ color: #2E2F42;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px; 
+    padding-top: 112px;
+    padding-bottom: 112px; 
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -320,6 +320,7 @@ color: #2E2F42;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  margin-bottom: 16px;
  }
 .modal-lable{
   display: inline-block;
@@ -358,6 +359,7 @@ color: #8E8F99;
 }
 .input-wrap{
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-textarea{
   width: 100%;
@@ -369,6 +371,15 @@ color: #8E8F99;
   resize:none;
   background-color: transparent;
   display: block;
+
+
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8E8F99;
+opacity: 0.5;
 }
 .modal-textarea:hover, .modal-textarea:focus{
   border: 1px solid #4D5AE5;
@@ -406,6 +417,9 @@ margin-bottom: 24px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   display: block;
+}
+.link-priv-pol{
+  color: var(--color-iris);
 }
 .btn-modal{
   width: 169px;
@@ -934,9 +948,23 @@ color: var(--color-slate);
       rgba(46, 47, 66, 0.7)
       ),
       url(../images/fon-tab.jpg);
+     
  } 
  .tablet{
   width: 580px;
+ }
+ .section-one-title{
+  font-size: 56px;
+ }
+ .about-item-title {
+ text-align: left;
+  margin-bottom: 8px;
+ }
+ .about-list{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 24px;
  }
 .ourteam-list {
   display: flex;
@@ -1013,6 +1041,8 @@ color: var(--color-slate);
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
       ), url(../images/fon-desktop.jpg);
+      padding-top: 188px;
+      padding-bottom: 188px;
   }  
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -1050,7 +1080,7 @@ color: var(--color-slate);
 }
 
 .section-one-title {
-  font-size: 56px;
+  
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
