@@ -675,7 +675,7 @@ display: flex;
 .subscribe-form {
   display: flex;
 flex-wrap: wrap;
-gap: 16px;
+gap: 24px;
 justify-content: center;
 align-items: center;
 }
@@ -1307,7 +1307,6 @@ margin-bottom: 16px;
   display: flex;
 justify-content: space-between;
 flex-wrap: nowrap;
-width: 453px;
 }
 .footer-email-input {
 width: 264px;
@@ -1343,7 +1342,7 @@ justify-content: center;
 align-items: center;
 padding: 8px 24px;
 border: none;
-margin-left: 24px;
+
 font-family: "Roboto", sans-serif; 
 font-weight: 500;
 font-size: 16px;
