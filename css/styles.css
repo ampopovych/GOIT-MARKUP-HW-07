@@ -61,6 +61,7 @@ section{
 }
 .mobmenu-header{
   height: 70px;
+  align-items: center;
 }
 .header-nav{
  display: flex;
@@ -151,15 +152,16 @@ color: #2E2F42;
   gap: 40px;
   display: flex;
   flex-direction: column;
+  
 }
 .mob-menu-tel {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40/36)
+  line-height: calc(40/36);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #4D5AE5;
-}
+ }
 .mob-menu-contact {
   font-weight: 500;
   font-size: 20px;
@@ -467,6 +469,7 @@ margin-bottom: 24px;
    letter-spacing: 0.02em;
    text-transform: capitalize;
    color: #2E2F42;
+   margin-bottom: 8px;
   }
    .about-text {
   font-weight: 500;
@@ -864,8 +867,8 @@ color: var(--color-slate);
 }
 @media screen and (min-width: 428px) {
   .container {
-    width: 398px;
-    align-items: center;
+    width: 428px;
+    
   }
 
  }
@@ -956,16 +959,20 @@ color: var(--color-slate);
  .section-one-title{
   font-size: 56px;
  }
- .about-item-title {
- text-align: left;
-  margin-bottom: 8px;
- }
- .about-list{
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 72px;
-  column-gap: 24px;
- }
+ /**--------Section2 About-------*/
+.about-item-title {
+  text-align: left;
+   margin-bottom: 8px;
+  } 
+.about-item {
+ width: calc((100% - 24px) / 2);
+  }
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+ 
 .ourteam-list {
   display: flex;
   flex-wrap: wrap;
@@ -1013,15 +1020,7 @@ color: var(--color-slate);
       ),
       url(../images/fon-tab-2x.jpg);
   }
-/**--------Section2 About-------*/
-  .about-item {
- width: calc((100% - 24px) / 2);
-  }
-  .about-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
+
 /***---Section our team---***/
 
 /*------Section Customers---*/
