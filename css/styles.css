@@ -278,7 +278,7 @@ color: #2E2F42;
 }
 
 .modal {
-  width: calc(100%-30px);
+  width: 408px;
   min-height: 584px;
   position: absolute;
   top: 50%;
@@ -724,6 +724,7 @@ align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 vertical-align: auto;
+width: 100%;
 }
 .btn-subscribe{
 display: flex;
@@ -881,8 +882,14 @@ color: var(--color-slate);
   .mob-soc-list {
     
     gap: 31px;
-
  }
+ .modal{
+  width: calc(100% - 30px);
+  overflow-y: auto; 
+  max-height: 586px; 
+  height: 90%;
+ }
+}
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
@@ -894,8 +901,11 @@ color: var(--color-slate);
   .mob-soc-list {
     
     gap: 56px;
-
  }
+ .modal{
+  width: 408px;
+ }
+}
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -1033,6 +1043,10 @@ color: var(--color-slate);
 .footer-subscr{
   flex-direction: column;
   align-items: flex-start;
+}
+.subscribe-form {
+  
+  flex-wrap: nowrap;
 }
  @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
